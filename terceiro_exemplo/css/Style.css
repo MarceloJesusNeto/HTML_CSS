@@ -1,0 +1,192 @@
+body,ul,li,a{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header{
+    background-color: #fff;
+    border-bottom: 1px rgb(216, 24, 24);
+    padding:29px 0px;
+}
+
+nav {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color:#333;
+    margin: 0px 0px 0px 20px;
+}
+
+nav ul{
+    list-style-type: none;
+    display:flex;
+}
+
+nav ul li{
+    margin-right: 20px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#333;
+    font-weight: bold;
+}
+
+section{
+    padding:40px;
+}
+
+.escola{
+    background-image: url("/terceiro_exemplo/img/cursos-online-gratuitos-iel-senai-noticias.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+    color: rgb(160, 160, 160);
+    text-align: center  ;
+}
+
+.escola-content{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.escola h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.escola p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #333;
+    text-shadow: 1px 1px 1px #333;
+}
+
+.btn-aprenda{
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border:10px;
+    transition: backgroud-color 0.3s;
+    border-radius:10px;
+}
+.btm-aprenda:hover{
+    background-color: #555;
+}
+
+.cursos{
+    max-width: 960px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.curos h2{
+    font-size: 24px;
+    margin-bottom:40px;
+}
+
+.curso-card{
+    background-color: #fff;
+    border:1px solid #ccc;
+    border-radius:40px;
+    margin:20px;
+    text-align: text;
+    transition: transorm 0.3s;
+    padding: 20px;
+}
+
+.curso-card:hover{
+    transform:translateY(-5px);
+}
+
+.curso-card img{
+    max-width: 50%;
+    height: auto;
+    border-radius:5px;
+}
+
+.curso-card h3 ,p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.about{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.contato{
+    background-color:#333;
+    color: #fff;
+    text-align: center;
+    padding:60px 0px;
+}
+
+.contato h2{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.contato p, span{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.depoimento{
+    max-width: 1010px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.depoimento div{
+    background-color: #ccc;
+    padding:20px 25px; 
+    border-radius: 20px;
+    margin: 30px;
+}
+.depoimento img {
+    margin: 15px 10px 0 0;
+    border-radius: 100%;
+    max-width:60px;
+    height:60px;
+    display: block;
+    position: relative; top: 30px;left: px;
+}
+
+.depoimento p{
+    margin: 0 0 20px 0;
+    text-align: center;
+    position: relative; bottom: 30px;left: 80px;
+    width: 800px;
+    display: block;
+}
+
+.depoimento label{
+    position: relative; top: 37px;right:416px;
+    margin:20px;
+}
+
+footer{
+    background-color: #333;
+    color:#fff;
+    text-align:center;
+    padding:20px 0;
+}

@@ -1,0 +1,181 @@
+body,ul,li,a{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header{
+    background-color: #fff;
+    border-bottom: 1px rgb(216, 24, 24);
+    padding:29px 0px;
+}
+
+nav {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color:#333;
+    margin: 0px 0px 0px 20px;
+}
+
+nav ul{
+    list-style-type: none;
+    display:flex;
+}
+
+nav ul li{
+    margin-right: 20px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#333;
+    font-weight: bold;
+}
+/*header*/
+
+.introducao{
+    background-image:url(/terceiro_exemplo/img/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center  ;  
+    padding:40px;
+    color: rgb(150, 146, 146);
+}
+
+.introducao h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: rgb(161, 160, 160);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+.introducao p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: rgb(104, 104, 104);
+    text-shadow: 1px 1px 1px rgb(150, 150, 150);
+}
+
+.divugaD img{
+    margin: 20px 25px 0px 50px;
+    border-radius:30px;
+}
+
+.imgD{
+    float:left;
+    max-width: 800px;
+    height: 0 auto;
+    margin:25px 0 0 25px;
+}
+
+.cursor{
+    margin: 20px 0 20px;
+    
+}
+
+.cursos h1{
+    float:right;
+    margin:40px 300px 0 0;
+}
+
+.cursos p{
+    width: 500px;
+    text-align:center;
+    float:right;
+    margin:20px 300px 0 0;
+}
+
+.cursos ul{
+    width: 500px;
+    float:right;
+    margin:10px 280px 0 0;
+}
+
+/**/
+
+.divugaL img{
+    margin: 150px 55px 30px 30px;
+    border-radius:30px;
+}
+
+.divugaL h1{
+    text-align: center;
+    margin: 150px 230px 0 0;
+}
+
+.imgl{
+    float:right;
+    max-height: 500px;
+    width: 0 auto;
+    margin:20px 0;
+}
+
+.cursorl{
+    margin: 20px 0;
+}
+    
+.cursosl h1{
+    float:left;
+    margin:20px 300px 0 0;
+}
+    
+.cursosl p{
+    width: 500px;
+    text-align:center;
+    float:left;
+    margin:50px 300px 0 0;
+}
+
+
+.cursosl ul{
+    width: 500px;
+    float:right;
+    margin:10px 280px 0 0;
+}
+
+
+
+
+
+.btn-aprenda{
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border:10px;
+    transition: backgroud-color 0.3s;
+    border-radius:10px;
+    float:right;
+    margin:10px 450px 0 0;
+}
+
+.btm-aprenda:hover{
+    background-color: #555;
+}
+
+
+/*footer*/
+
+footer{
+    background-color: #333;
+    color:#fff;
+    text-align:center;
+    padding:20px 0;
+    float:left;
+    width: 100%;
+}
